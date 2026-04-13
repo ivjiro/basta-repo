@@ -66,7 +66,7 @@
   <h1>🏓 PONG</h1>
  
   <div id="controls">
-    PLAYER 1 (LEFT): W / S &nbsp;|&nbsp; PLAYER 2 (RIGHT): ↑ / ↓
+    Tiger (LEFT): W / S &nbsp;|&nbsp; Crocodile (RIGHT): ↑ / ↓
     <br>
     Press <strong>SPACE</strong> to start / pause
   </div>
@@ -429,7 +429,7 @@
       // Draw one final frame so the last score is visible
       draw();
  
-      const label = winner === 'p1' ? 'PLAYER 1' : 'PLAYER 2';
+      const label = winner === 'p1' ? 'Tiger' : 'Crocodile';
       message.textContent = `🏆 ${label} WINS!  Press SPACE to play again.`;
     }
  
